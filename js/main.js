@@ -109,6 +109,7 @@ btnClear.addEventListener("click", function(event){
     txtNombre.style.border=""
     txtNumber.style.border=""
     txtNombre.focus()
+    cuerpoTabla.innerText = "";
 })
 
 txtNombre.addEventListener("blur", function(event){
